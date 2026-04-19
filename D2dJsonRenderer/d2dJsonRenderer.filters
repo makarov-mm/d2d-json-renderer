@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="jsonSceneLoader.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="circlePrimitive.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="linePrimitive.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="trianglePrimitive.cpp">
+      <Filter>Domain</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneView.cpp">
+      <Filter>Presentation</Filter>
+    </ClCompile>
+    <ClCompile Include="coordinateTransformer.h">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneRenderer.cpp">
+      <Filter>Presentation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Domain">
+      <UniqueIdentifier>{5c18c8b4-929d-4348-b9b7-6b0ebaa725de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{de187038-bf87-4a68-95cc-45107eaa1b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentation">
+      <UniqueIdentifier>{e68d4871-ade9-4885-a63b-7c762b19db6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{758303f3-d96e-4f8a-8303-8d42662f9a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nlohmann">
+      <UniqueIdentifier>{9602038f-5124-4452-82ef-93a64752c233}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point2D.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="rect2D.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="argbColor.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="primitiveBase.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="linePrimitive.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="circlePrimitive.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="trianglePrimitive.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="primitiveVisitor.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Domain</Filter>
+    </ClInclude>
+    <ClInclude Include="jsonSceneLoader.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneView.h">
+      <Filter>Presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneRenderer.h">
+      <Filter>Presentation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
